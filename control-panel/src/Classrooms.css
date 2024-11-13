@@ -1,0 +1,51 @@
+.classroom-list-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.classroom-list-title {
+    font-size: 1.8rem;
+    color: #1c3d72;
+    margin-bottom: 20px;
+}
+
+.classroom-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.classroom-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f0f8ff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.classroom-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1c3d72;
+    margin-bottom: 10px;
+}
+
+.classroom-button {
+    background-color: #1c3d72;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.classroom-button:hover {
+    background-color: #355a9a;
+}

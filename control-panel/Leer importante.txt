@@ -1,0 +1,16 @@
+Para probar la aplicación con el prototipo conectado se debe:
+
+Configurar la dirección ip:
+	. En el archivo ".env" de esta carpeta, en la linea REACT_APP_API_URL= http://ip:8080
+	. En el Arduino IDE, en la linea: const char* serverURL = http://ip:8080
+
+También en Arduino IDE hay que modificar la SSID y el password con los de tu red conectada.
+
+Luego, el orden de inicio es:
+
+1_ base de datos: iniciamos la base de datos en la carpeta /arduino-sever/database con: Node index.js
+2_ servidor: iniciamos el servidor en /arduino-server con: Node server.js
+3_ frontend: iniciamos el front en la carpeta raíz con npm start
+
+
+La contraseña para iniciar sesión es por defecto: "UTNSanFco2024"
